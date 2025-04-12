@@ -8,6 +8,15 @@
                 "/Users/bhavaniravi/projects/personal/sorollaportfolio/src/content/notes"
             ]
         },
+        "time": {
+            "command": "npx",
+            "args": [
+                "@modelcontextprotocol/inspector",
+                "uv",
+                "run",
+                "mcp-server-time"
+            ]
+        },
         "Demo": {
             "command": "uv",
             "args": [
@@ -18,6 +27,15 @@
                 "run",
                 "/Users/bhavaniravi/projects/personal/mcp-server-demo/server.py"
             ]
-        }
+        },
+        "weather": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/Users/bhavaniravi/projects/personal/mcp-server-demo/",
+                "run",
+                "weather.py"
+            ]
+        } 
     }
 }
