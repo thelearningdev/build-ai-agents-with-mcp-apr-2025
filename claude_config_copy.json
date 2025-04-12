@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/bhavaniravi/projects/personal/sorollaportfolio/src/content/notes"
+            ]
+        },
+        "Demo": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "/Users/bhavaniravi/projects/personal/mcp-server-demo/server.py"
+            ]
+        }
+    }
+}
